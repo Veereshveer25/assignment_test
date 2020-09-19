@@ -4,9 +4,9 @@ pipeline {
 		stage ('javaprojects') {
 			steps {
 				sh '''#!/bin/bash
-				            git pull https://github.com/riyaz-ahamadm92/java-projects.git
+				            git pull https://github.com/Veereshveer25/java-projects.git
 				            if [ $? -ne 0 ] ; then
-				            git clone https://github.com/riyaz-ahamadm92/java-projects.git
+				            git clone https://github.com/Veereshveer25/java-projects.git
 				            fi
 				            cd java-projects
 				            mvn clean install
